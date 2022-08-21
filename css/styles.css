@@ -157,6 +157,10 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
 }
 
 .header-nav-link:hover,
@@ -303,6 +307,8 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    
+    margin-bottom: 10px;
 }
 
 .team-profesional {
@@ -312,8 +318,6 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
-
-    margin-top: 10px;
 }
 
 /* Підвал */
@@ -323,14 +327,16 @@ img {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+ .logo {
+    margin-bottom: 20px;
+ }
 
 .footer-contact {
-    margin-top: 20px;
+    
 }
 
-.footer-contact-item,
-.footer-contact-item {
-    margin-top: 9px;
+.footer-contact-item:not(:last-child)  {
+    margin-bottom: 9px;
 }
 
 /* Список контактів */
@@ -424,6 +430,8 @@ img {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
+
+    margin-top: 4px;
 }
 
 .portfolio-list-text {
@@ -432,6 +440,4 @@ img {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
-
-    margin-top: 4px;
 }
